@@ -90,9 +90,9 @@ ul {
   width: 49px;
   height: 49px;
   margin-left: 12px;
-  top: 8px;
+  margin-top: 8px;
   left: 0;
-  bottom: 8px;
+  margin-bottom: 8px;
   border: 2px solid #DB2777;
   border-radius: 8px;
   object-fit: cover;
