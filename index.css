@@ -1,0 +1,143 @@
+.link {
+  width: 28px;
+  margin-left: 24px;
+  color: #D1D5DB;
+  position: absolute;
+  left: 0;
+  top: 21px;
+}
+
+.svg-logo {
+  width: 28px;
+  height: 28px;
+  color: #FFFFFF;
+}
+
+.svg-ul {
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+}
+
+html,
+body,
+main {
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Figtree';
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.ournament-bg {
+  position: absolute;
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #FDF2F8;
+  position: relative;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #9D174D;
+}
+
+.profile-circle {
+  margin-top: 88px;
+  width: 140px;
+  height: 140px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+.link-item {
+  background: #FDF2F8;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 65px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.account-img-rectangle {
+  width: 49px;
+  height: 49px;
+  margin-left: 12px;
+  top: 8px;
+  left: 0;
+  bottom: 8px;
+  border: 2px solid #DB2777;
+  border-radius: 8px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.link-item-wrapper {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: rgba(249, 168, 212, 0.2);
+  margin: 0;
+  /* background: radial-gradient(83.67% 37.5% at 48.33% 35.5%, rgba(249, 168, 212, 0.2) 0%, rgba(252, 231, 243, 0.2) 100%), #F9A8D4; */
+  box-shadow: 18px 136px 55px rgba(0, 0, 0, 0.01), 10px 77px 46px rgba(0, 0, 0, 0.05), 4px 34px 34px rgba(0, 0, 0, 0.09), 1px 9px 19px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  width: 174px;
+  height: 29px;
+  margin-top: 24px;
+  margin-bottom: 4px;
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #FDF2F8;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 63px;
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FBCFE8;
+}
